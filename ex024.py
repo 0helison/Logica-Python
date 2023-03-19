@@ -1,0 +1,5 @@
+d=(' Desafio 24 ')
+print('{:=^31}'.format(d))
+print('='*31)
+c=str(input('Informe a cidade que você nasceu: ')).strip()
+print(c[0:5].upper() == 'SANTO')

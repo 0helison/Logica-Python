@@ -1,0 +1,5 @@
+d=(' DESAFIO 5 ')
+print('{:=^21}'.format(d))
+a=int(input('Digite um número: '))
+print('===============')
+print(f'Analisando o valor {a}, seu antecessor é {a-1} e seu sucessor é {a+1}.')

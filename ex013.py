@@ -1,0 +1,6 @@
+d=(' DESAFIO 13 ')
+print('{:=^31}'.format(d))
+s=float(input('Informe o salário atual do funcionário: R$ '))
+a=float(input('Qual o porcentual (%) de aumento concedido? % '))
+n=s+(s*a/100)
+print ('Salário atual: R$ {:.2f}\nAumento %: {}\nNovo Salário: R$ {:.2f}'.format(s,a,n))

@@ -1,0 +1,6 @@
+d=(' Desafio 25 ')
+print('{:=^31}'.format(d))
+print('='*31)
+n=str(input('Digite seu nome completo: ')).strip()
+print('Seu nome tem "Pontes"? ')
+print('PONTES' in n.upper())

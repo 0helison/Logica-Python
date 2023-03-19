@@ -1,0 +1,10 @@
+d=(' DESAFIO 10 ')
+print('{:=^31}'.format(d))
+print('='*31)
+print('     CONVERSOR DE DÓLARES')
+print('='*31)
+t=float(input('Quanto você quer converter: R$ '))
+v=float(input('1 US$ = R$ '))
+c=t/v
+print('R$ {:.2f} equivale a US$ {:.2f}'.format(t, c))
+print('='*31)

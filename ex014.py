@@ -1,0 +1,6 @@
+d=(' DESAFIO 14 ')
+print('{:=^31}'.format(d))
+d1=int(input('Informe a quantidade de dias alugados: '))
+k=float(input('Informe o total de KM rodados: '))
+t=(60*d1)+(0.15*k)
+print('O total a pagar é: R$ {:.2f}'.format(t))
